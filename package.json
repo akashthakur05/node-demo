@@ -43,7 +43,7 @@
 		"test:path": "npm config set $npm_package_name:testPath",
 		"test:watch": "nps test.watch",
 		"prettier": "prettier --write '{src,__{tests,mocks}__}/**/*.js'",
-		"precommit": "nps lintStaged && nps validate",
+		"precommit": "nps lintStaged && nps validate --no-verify",
 		"lint": "nps lint",
 		"lint:fix": "nps lint.fix",
 		"doc": "nps doc",
