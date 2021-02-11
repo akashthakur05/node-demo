@@ -1,0 +1,10 @@
+{
+  "name": "YourApp API",
+  "version": "0.0.1",
+  "description": "Api docs of YourApp API",
+  "title": "YourApp API",
+  "url" : "https://your-app.herokuapp.com/api",
+  "template": {
+    "forceLanguage": "en"
+  }
+}
